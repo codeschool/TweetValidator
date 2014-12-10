@@ -279,6 +279,10 @@
           "resolved": "https://registry.npmjs.org/utils-merge/-/utils-merge-1.0.0.tgz"
         }
       }
+    },
+    "permissive-cors": {
+      "version": "0.0.1",
+      "from": "permissive-cors@"
     }
   }
 }

@@ -1,6 +1,9 @@
 var express = require('express');
 var app = express();
 
+var allowAllTheThings = require('permissive-cors');
+app.use(allowAllTheThings());
+
 var bodyParser = require('body-parser');
 
 app.post('/tweet', bodyParser.urlencoded({ extended: false }),  function(request, response) {
