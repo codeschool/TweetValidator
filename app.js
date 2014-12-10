@@ -6,7 +6,7 @@ app.use(allowAllTheThings());
 
 var bodyParser = require('body-parser');
 
-app.post('/tweet', bodyParser.urlencoded({ extended: false }),  function(request, response) {
+app.post('/tweet', bodyParser.json(),  function(request, response) {
   var description = request.body.description;
 
   if(!description || description.length > 140){
