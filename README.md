@@ -3,7 +3,7 @@
 Checks for 140 character limit.
 
 The `/tweet` endpoint responds to **POST** requests with a
-*description* field in URL encoded format.  
+*description* field in JSON format.
 It sends back a
 **200** HTTP status code if *description* is valid and a **400** status code
 if it's not.
