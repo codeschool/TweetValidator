@@ -19,4 +19,4 @@ Available on Heroku at <http://gentle-spire-1153.herokuapp.com/tweet>
 
 Using *curl*, you can make calls like so:
 
-`curl -d 'description=Example+of+description' http://localhost:3000/tweet`
+`curl -H 'Content-Type: application/json' -d '{"description":"Example of description"}' http://localhost:3000/tweet`
