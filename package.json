@@ -11,6 +11,6 @@
   "dependencies": {
     "body-parser": "^1.10.0",
     "express": "^4.10.4",
-    "permissive-cors": "0.0.1"
+    "permissive-cors": "^1.0.0"
   }
 }
